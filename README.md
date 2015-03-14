@@ -2,4 +2,4 @@
 
 ### usefull links
 
-*(picamera)[http://picamera.readthedocs.org/en/release-1.9/install3.html]
+*[picamera](http://picamera.readthedocs.org/en/release-1.9/install3.html)
