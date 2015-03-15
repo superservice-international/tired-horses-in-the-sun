@@ -1,6 +1,10 @@
 ## all the tired horses in the sun
 
-### usefull links
+> all the tired horses in the sun, how am I supposed to get any riding done?
+
+Bob Dylan
+
+### nützliche links
 
 * [picamera](http://picamera.readthedocs.org/en/release-1.9/install3.html)
 * [raspberry pi umts](http://www.henrykoch.de/raspberry-pi-via-umts-ins-netz)
