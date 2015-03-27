@@ -12,3 +12,4 @@ Bob Dylan
 * [noch mehr raspberry pi umts](https://www.thefanclub.co.za/how-to/how-setup-usb-3g-modem-raspberry-pi-using-usbmodeswitch-and-wvdial)
 * [und noch mehr raspberry pi umts](http://garethhowell.com/wp/connect-raspberry-pi-3g-network/)
 * [raspberry pi netzteil](http://www.amazon.de/gp/product/B009KZ3WYW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B009KZ3WYW&linkCode=as2&tag=dde0b6-21)
+* [silent install](http://raspberrypi.stackexchange.com/questions/15192/installing-raspbian-from-noobs-without-display)
