@@ -36,6 +36,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+    'nightvision',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -79,4 +82,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
+DATA_DIR = os.path.dirname(os.path.dirname(__file__))
+MEDIA_ROOT = os.path.join(DATA_DIR, 'media')
+STATIC_ROOT = os.path.join(DATA_DIR, 'static')
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
