@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 from datetime import datetime
 
 
@@ -13,7 +14,9 @@ class Picture(models.Model):
     def save(self, *args, **kwargs):
         string_time = self.photo.name.split('.')[0]
         object_time = datetime.strptime(string_time, '%Y-%m-%d_%H-%M-%S')
-        self.created = object_time
+        self.created = timezone.make_aware(
+                object_time, timezone.get_current_timezone()
+                )
         super(Picture, self).save(*args, **kwargs)
 
 
