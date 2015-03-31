@@ -9,6 +9,8 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'-/', include('nightvision.urls')),
+    url(r'^$', include('nightvision_frontend.urls')),
+    url(r'^accounts/login/$', 'django.contrib.auth.views.login', {'template_name': 'admin/login.html'}), 
 )
 
 urlpatterns += [
