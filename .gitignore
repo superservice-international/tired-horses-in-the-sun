@@ -4,4 +4,4 @@ include/
 
 db.sqlite3
 
-rest_app/media/
+media/
