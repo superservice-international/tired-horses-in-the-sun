@@ -50,8 +50,8 @@
 
             {% for pic in pictures %}
             <div class="single-slide">
-              <img data-lazy="{{ MEDIA_URL }}{{pic.photo}}" class="img-repsponsive">
-              <h1>{{pic.created}}</h1>
+              <img data-lazy="{{ MEDIA_URL }}{{pic.photo}}" class="img-repsponsive" style="width: 100%; margin: 0 auto;">
+              <h1 style="position: absolute; top: 0; padding-left: 20px; color: rgb(132, 0, 0);">{{pic.created}}</h1>
             </div>
             {% endfor %}
 
@@ -67,6 +67,7 @@
       $(document).ready(function(){
         $('.the-slider').slick({
           lazyLoad: 'ondemand',
+          infinite: false,
         });
       });
     </script>
